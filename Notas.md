@@ -15,6 +15,12 @@ ls :
 cd {ruta} :
     Te mueve a la ruta que especifiques
 
+history :
+    Muestra el historial de comandos puestos en la consola con un id.
+
+!{id}: 
+    Ejecuta el comando con el id especificado del historial de la consola.
+
 
 
 ## Comandos de Git ##:
