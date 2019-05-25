@@ -92,3 +92,24 @@ git pull {origin_o_nombre_remoto} {rama} :
 
 git push {origin_o_nombre_remoto} {rama} :
     Envia las modificaciones hechas en el repositorio local al servidor remoto y la rama especificada.
+
+
+# Configurar el SSH en github
+
+## Primer paso: 
+
+Generar tus llaves SSH. Recuerda que es muy buena idea proteger tu llave privada con una contraseña.
+
+ssh-keygen -t rsa -b 4096 -C "tu@email.com"
+
+##Segundo paso: 
+
+Terminar de configurar nuestro sistema.
+
+En Windows y Linux:
+
+__Encender el "servidor" de llaves SSH de tu computadora__:
+`eval $(ssh-agent -s)`
+
+__Añadir tu llave SSH a este "servidor"__:
+`ssh-add ruta-donde-guardaste-tu-llave-privada`
