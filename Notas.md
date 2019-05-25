@@ -22,7 +22,8 @@
 #### !{id}: 
     Ejecuta el comando con el id especificado del historial de la consola.
 
-
+#### alias {nombre_alias}="{comandos}"
+    Te permite crear un alias para un comando que desées
 
 ##Comandos de Git:
 
