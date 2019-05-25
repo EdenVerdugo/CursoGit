@@ -87,5 +87,8 @@ git pull {origin_o_nombre_remoto} {rama} :
     hace fetch y merge de los cambios que se encuentran en el servidor remoto de la rama especificada al repositorio y rama local.
     !Usar de preferencia este y siempre hacer un pull antes de llamar a un push!
 
+    ## Nota ## si tienes un repositorio previamente creado y lo quieres enlazar al repositorio de github, es necesario añadir un commando extra --allow-unrelated-histories
+    para que te permita fusionar el repositorio remoto con el repositorio local.
+
 git push {origin_o_nombre_remoto} {rama} :
     Envia las modificaciones hechas en el repositorio local al servidor remoto y la rama especificada.
