@@ -1,4 +1,4 @@
-## :tw-1f60e: Lista de comandos utiles en Git Bash  :tw-1f44c:
+## :heavy_check_mark: Lista de comandos utiles en Git Bash  :ok_hand:
 
 
 #### Ctrl + L : 
