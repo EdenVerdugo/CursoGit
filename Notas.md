@@ -43,8 +43,17 @@ git commit :
 git branch :
     Muestra todas las ramas del repositorio.
 
+git branch {rama}:
+    Crea la rama especificada.
+
+git diff:
+    Muestra todos los cambios del repositorio en el commit actual y el anterior
+
+git diff {id_commit_comparar_1}  {id_commit_comparar_2} :
+    Muestra las diferencias en el archivo entre los dos commits especificados.
+
 git checkout {rama}:
-    Crea una rama o mueve el tracking del repositorio actual a la rama seleccionada
+    Mueve el tracking del repositorio actual a la rama seleccionada
     ## ¡importante! ## si creas una nueva rama y no has guardado los cambios en el repositorio actual, estos se perderan al moverse de rama
 
 
