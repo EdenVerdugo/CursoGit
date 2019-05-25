@@ -86,6 +86,9 @@
     Elimina los archivos no trackeados del directorio.
 
 
+###### git cherry-pick {id_branch}    
+    Se trae los cambios hechos en una rama vieja a la rama actual.
+
 ## GITHUB
 
 ##### git clone {url_repositorio} :
