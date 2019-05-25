@@ -56,8 +56,18 @@ git checkout {rama}:
     Mueve el tracking del repositorio actual a la rama seleccionada
     ## ¡importante! ## si creas una nueva rama y no has guardado los cambios en el repositorio actual, estos se perderan al moverse de rama
 
-git merge {rama}
+git merge {rama} :
     Mezcla en la rama actual, la rama especificada.
 
 
+@@GITHUB
+
+git clone {url_repositorio} :
+    Clona el repositorio remoto en el equipo local.
+
+git add remote {nombre_que_quiera_estandar_origin} {url_repositorio} :
+    Añade el repositorio remoto a donde se enviaran los commits.
+
+get remote set-url {nueva_url_repositorio} :
+    Modifica la url del repositorio remoto.
 
