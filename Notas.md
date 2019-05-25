@@ -100,7 +100,7 @@ git push {origin_o_nombre_remoto} {rama} :
 
 Generar tus llaves SSH. Recuerda que es muy buena idea proteger tu llave privada con una contraseña.
 
-ssh-keygen -t rsa -b 4096 -C "tu@email.com"
+`ssh-keygen -t rsa -b 4096 -C "tu@email.com"`
 
 ## Segundo paso: 
 
