@@ -25,7 +25,7 @@
 #### alias {nombre_alias}="{comandos}"
     Te permite crear un alias para un comando que desées
 
-##Comandos de Git:
+## Comandos de Git:
 
 ###### **git init :**
     Inicializa el repositorio en el directorio actual.
@@ -68,7 +68,7 @@
     Mezcla en la rama actual, la rama especificada.
 
 
-@@GITHUB
+## GITHUB
 
 ##### git clone {url_repositorio} :
     Clona el repositorio remoto en el equipo local.
