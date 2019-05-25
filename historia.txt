@@ -24,3 +24,7 @@ akjsdasjkdkjasd
 mas lineas jhasdajkhsdjhka
 
 kjashdkjasdhjk
+
+esto es una cosa que estoy agregando al commit
+
+y resulta que me habia olvidado de esta linea, pero no pasa nada gracias al comando --amend
