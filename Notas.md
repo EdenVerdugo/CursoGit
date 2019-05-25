@@ -52,7 +52,10 @@
     Muestra todas las ramas del repositorio.
 
 ###### git branch {rama}:
-    Crea la rama especificada.
+    Crea la rama especificada.    
+
+###### git branch -D {rama}
+    Borra la rama especificada.
 
 ###### git diff:
     Muestra todos los cambios del repositorio en el commit actual y el anterior
@@ -67,6 +70,8 @@
 ###### git merge {rama} :
     Mezcla en la rama actual, la rama especificada.
 
+###### git stash
+    Regresa los cambios de la rama a la ultima version
 
 ## GITHUB
 
