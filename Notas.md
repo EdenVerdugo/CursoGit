@@ -74,7 +74,7 @@ git clone {url_repositorio} :
 git remote add {nombre_que_quiera_estandar_origin} {url_repositorio} :
     Añade el repositorio remoto a donde se enviaran los commits.
 
-git remote set-url {nueva_url_repositorio} :
+git remote set-url {nombre_origin} {nueva_url_repositorio} :
     Modifica la url del repositorio remoto.
 
 git fetch :
@@ -102,14 +102,16 @@ Generar tus llaves SSH. Recuerda que es muy buena idea proteger tu llave privada
 
 ssh-keygen -t rsa -b 4096 -C "tu@email.com"
 
-##Segundo paso: 
+## Segundo paso: 
 
 Terminar de configurar nuestro sistema.
 
 En Windows y Linux:
 
-__Encender el "servidor" de llaves SSH de tu computadora__:
+__Encender el "servidor" de llaves SSH de tu computadora__ :
+
 `eval $(ssh-agent -s)`
 
-__Añadir tu llave SSH a este "servidor"__:
+__Añadir tu llave SSH a este "servidor"__ :
+
 `ssh-add ruta-donde-guardaste-tu-llave-privada`
