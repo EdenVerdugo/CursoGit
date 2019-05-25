@@ -25,6 +25,13 @@ git init :
 git status :
     Verifica el estatus de los archivos del repositorio y muestra si hay algun cambio.
 
+git log:
+    Muestra el log de commits del repositorio.
+    --all > Muestra todos los commits de la historia del repositorio
+    --graph > Agrega una grafica que muestra tambien las ramas
+    --oneline > pone toda informacion en una sola linea
+
+
 git add {archivo} o git add . :
     Pone el track en los archivos del repositorio para que se empiecen a seguir los cambios en el staged del repositorio.
 
