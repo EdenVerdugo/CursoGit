@@ -115,3 +115,5 @@ __Encender el "servidor" de llaves SSH de tu computadora__ :
 __Añadir tu llave SSH a este "servidor"__ :
 
 `ssh-add ruta-donde-guardaste-tu-llave-privada`
+
+
