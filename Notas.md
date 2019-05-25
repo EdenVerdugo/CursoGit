@@ -56,6 +56,8 @@ git checkout {rama}:
     Mueve el tracking del repositorio actual a la rama seleccionada
     ## ¡importante! ## si creas una nueva rama y no has guardado los cambios en el repositorio actual, estos se perderan al moverse de rama
 
+git merge {rama}
+    Mezcla en la rama actual, la rama especificada.
 
 
 
