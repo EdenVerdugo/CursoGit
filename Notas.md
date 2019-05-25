@@ -71,7 +71,20 @@
     Mezcla en la rama actual, la rama especificada.
 
 ###### git stash
-    Regresa los cambios de la rama a la ultima version
+    Regresa los cambios de la rama a la ultima version y guarda los cambios que tenias en memoria
+
+###### git stash pop
+    Regresa los cambios de memoria al archivo
+
+###### git stash list
+    Muestra una lista de los cambios que se han stasheado.
+
+###### git clean --dry-run
+    Muestra una simulacion de los archivos que se van a eliminar del repositorio si no estan trackeados.
+
+###### git clean -f
+    Elimina los archivos no trackeados del directorio.
+
 
 ## GITHUB
 
