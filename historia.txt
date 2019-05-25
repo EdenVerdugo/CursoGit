@@ -1,0 +1,9 @@
+Esta es mi historia:
+
+Eden Verdugo nacio el 13 de marzo de 1986 en Culiacan, Sinaloa, México.
+
+Estudio en la facultad de informática de la Universidad Autonoma de Sinaloa.
+
+Actualmente tiene ya varios años trabajando en la rama del desarrollo de software 
+y le gusta mucho.
+
