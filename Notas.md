@@ -71,9 +71,21 @@ git merge {rama} :
 git clone {url_repositorio} :
     Clona el repositorio remoto en el equipo local.
 
-git add remote {nombre_que_quiera_estandar_origin} {url_repositorio} :
+git remote add {nombre_que_quiera_estandar_origin} {url_repositorio} :
     Añade el repositorio remoto a donde se enviaran los commits.
 
-get remote set-url {nueva_url_repositorio} :
+git remote set-url {nueva_url_repositorio} :
     Modifica la url del repositorio remoto.
 
+git fetch :
+    descarga los cambios hechos en la rama master del servidor remoto, pero no los aplica.
+
+git merge:
+    aplica los cambios en la rama master del servidor remoto. 
+
+git pull {origin_o_nombre_remoto} {rama} :
+    hace fetch y merge de los cambios que se encuentran en el servidor remoto de la rama especificada al repositorio y rama local.
+    !Usar de preferencia este y siempre hacer un pull antes de llamar a un push!
+
+git push {origin_o_nombre_remoto} {rama} :
+    Envia las modificaciones hechas en el repositorio local al servidor remoto y la rama especificada.
