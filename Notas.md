@@ -40,7 +40,7 @@ git commit :
     -m "{mensaje}" > le pone un texto al commit 
     -am "{mensaje}" > guarda los cambios sin tener que mandar llamar el add, pero solo lo hace sobre los archivos que se encuentra trackeados en el repositorio.
 
-git checkout :
+git branch :
     Muestra todas las ramas del repositorio.
 
 git checkout {rama}:
