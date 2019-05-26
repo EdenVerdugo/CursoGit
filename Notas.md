@@ -90,6 +90,12 @@
 ###### git cherry-pick {id_branch}    
     Se trae los cambios hechos en una rama vieja a la rama actual.
 
+###### git reflog
+    Muestra la verdad de las cosas, nada se le escapa al ojo de git, estas en problemas y lo sabes
+
+###### git reset --hard {id_commit}
+    Regresa todo el repositorio al estado en que se encontraba en ese commit.
+
 ## GITHUB
 
 ##### git clone {url_repositorio} :
