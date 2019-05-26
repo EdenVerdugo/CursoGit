@@ -96,6 +96,14 @@
 ###### git reset --hard {id_commit}
     Regresa todo el repositorio al estado en que se encontraba en ese commit.
 
+###### git grep "{palabra_buscar}"
+    Te regresa los archivos donde se encuentre la palabra que buscas
+    > -n : obtiene la linea donde se encuentra la palabra
+    > -c : cuenta las apariciones de la palabra
+
+###### git -log -S "{palabra_buscar}"
+    Busca en el historial de commits la palabra a buscar.
+
 ## GITHUB
 
 ##### git clone {url_repositorio} :
