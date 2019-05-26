@@ -47,6 +47,7 @@
     Guarda los cambios en el repositorio local, antes de usar este comando se debe de ejecutar el git add . o git add {archivo}
     -m "{mensaje}" > le pone un texto al commit 
     -am "{mensaje}" > guarda los cambios sin tener que mandar llamar el add, pero solo lo hace sobre los archivos que se encuentra trackeados en el repositorio.
+    --amend sirve para sobreescribir el ultimo commando con los cambios actuales.
 
 ###### git branch :
     Muestra todas las ramas del repositorio.
